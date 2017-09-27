@@ -1,2 +1,2 @@
 # FlinkReadWriteKafka
-Template to read data from an input topic, write to stdout, and write to output topic
+Java example to read from Kafka and write to a new topic with Flink.
