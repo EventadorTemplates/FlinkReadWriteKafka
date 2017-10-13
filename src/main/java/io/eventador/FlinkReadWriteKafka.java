@@ -32,7 +32,7 @@ public class FlinkReadWriteKafka {
         // Print Kafka messages to stdout - will be visible in logs
         messageStream.print();
 
-        // Write JSON payload back to Kafka topic
+        // Write payload back to Kafka topic
         messageStream.addSink(new FlinkKafkaProducer010<>(
                     params.getRequired("write-topic"),
                     new SimpleStringSchema(),
